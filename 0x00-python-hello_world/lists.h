@@ -2,8 +2,6 @@
 #define LISTS_H
 
 #include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
 
 /**
  * struct listint_s - singly linked list
@@ -11,7 +9,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * for Holberton project
+ * for Holberton Alx school project
  */
 typedef struct listint_s
 {
@@ -24,4 +22,4 @@ listint_t *add_nodeint(listint_t **head, const int n);
 void free_listint(listint_t *head);
 int check_cycle(listint_t *list);
 
-#endif /*LISTS_H*/
+#endif /* LISTS_H */
